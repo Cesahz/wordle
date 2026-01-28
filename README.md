@@ -1,3 +1,2 @@
 # wordle
-# un juego de palabras con una cantidad masiva de variantes
-# tiene normalmente entre
+# Wordle es un juego de adivinanzas de palabras en línea que consiste en adivinar una palabra oculta de cinco letras en un máximo de seis intentos.  Cada intento debe ser una palabra válida, y tras cada uno, el juego proporciona retroalimentación mediante colores
