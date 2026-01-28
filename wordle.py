@@ -60,3 +60,16 @@ def Resultado_juego():
     else:
         sigo_jugando = True
         return sigo_jugando
+
+#-----Iniciamos el juegoo
+while jugando:
+    palabra_ingresada = Solicitar_palabra()
+    letras_verificadas = Resaltar_letra(palabra_ingresada,palabra_elegida)
+    print(f'{letras_verificadas}')
+    intentos -= 1
+    jugando = Controlar_intentos(intentos)
+    if jugando:
+        print(f'Tienes {intentos} intentos.')
+        jugando = Resultado_juego()
+    else:
+        jugando = Resultado_juego()
